@@ -4,3 +4,4 @@ Move the code you previously wrote to calculate how many seconds are in a year i
 Then execute it as a script to see the output printed to your console.
 
 '''
+print(60*60*24*365)

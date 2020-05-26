@@ -17,5 +17,4 @@
 
 print ('hello world')
 help('print')
-print(60*60*24*365)
-print('hi')
+(60*60*24*365)
