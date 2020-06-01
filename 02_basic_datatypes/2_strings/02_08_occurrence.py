@@ -7,3 +7,7 @@ Letter input: o
 Result: 4
 
 '''
+string=input("type some words: ")
+first_letter=input("type a letter found in the words: ")
+index=string.find(first_letter)
+print("the first occurence of that letter is: ", index)

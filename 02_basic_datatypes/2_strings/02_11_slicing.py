@@ -7,3 +7,6 @@ translated to pig latin by moving the first letter to the end, followed by "ay".
 For example: ryan -> yanray, caden -> adencay
 
 '''
+name=input("what's your name: ")
+print(name[])
+#don't think this has been covered yet in course?

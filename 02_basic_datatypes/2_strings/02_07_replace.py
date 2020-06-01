@@ -7,4 +7,7 @@ Symbol input: #
 Result: #ore python progra##ing please
 
 '''
-
+original_sentence=input("type a sentence: ")
+symbol=input("enter a symbol: ")
+first=original_sentence[0]
+print(original_sentence.replace(first, symbol))
