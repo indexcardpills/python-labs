@@ -8,4 +8,4 @@ script = "hello this is a set of words"
 list_script = script.split()
 
 print(list_script)
-#most occurences?.
+#most occurences?.j
