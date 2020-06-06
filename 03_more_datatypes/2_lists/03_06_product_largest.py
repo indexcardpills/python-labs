@@ -9,6 +9,13 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+
+numbers=input("enter ten single digit numbers: ")
+list_of_numbers=list(numbers)
+max_in_list=max(list_of_numbers)
+print(max_in_list)
+#It's just giving me the highest single digit, what am I doing wrong? Below i did each number as a separate variable
+'''
 first_number=input("enter a number: ")
 int(first_number)
 second_number=input("enter a number: ")
@@ -35,3 +42,4 @@ largest_number=max(list_of_numbers)
 print(largest_number)
 #could I have saved all the numbers into one variable and created a list out of that?
 
+'''

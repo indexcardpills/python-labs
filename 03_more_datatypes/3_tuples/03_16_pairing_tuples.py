@@ -11,3 +11,9 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+numbers = "7, 6, 8, 9"
+numbers_without_spaces = numbers.replace(" ", "")
+list_of_numbers = [numbers_without_spaces]
+numbers_sorted=sorted(list_of_numbers)
+print(numbers_sorted)
+#why is this not sorting?

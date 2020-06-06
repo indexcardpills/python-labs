@@ -6,3 +6,8 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+string = "good afternoon"
+tuple = tuple(string)
+print(tuple)
+#i'm stuck
+#occurences = tuple.count(string)

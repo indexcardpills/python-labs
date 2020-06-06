@@ -8,9 +8,11 @@ Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
 original_ten="1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
-new_list=original_ten.split()
+no_spaces = original_ten.replace(" ", "")
+new_list=no_spaces.split()
 print(new_list[0][0], new_list[0][1])
-#I've saved the string into a list, but when I try to print the items in the list, they come out as characters, why?
+#I've saved the string into a list, but when I try to print the items in the list, they come out as characters
+# and the commas get printed, why is this? Have different solution below.
 
 
 '''
