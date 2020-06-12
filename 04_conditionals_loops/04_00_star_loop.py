@@ -11,3 +11,7 @@ For example if n is 3, you print:
 '''
 
 n = 5
+star="*"
+for
+
+#Not sure how to go about doing this...

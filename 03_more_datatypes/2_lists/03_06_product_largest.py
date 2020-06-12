@@ -10,7 +10,7 @@ come back to this task after you have learned about loops)
 
 '''
 
-numbers=input("enter ten single digit numbers: ")
+numbers=(input("enter ten single digit numbers: "))
 list_of_numbers=list(numbers)
 max_in_list=max(list_of_numbers)
 print(max_in_list)
