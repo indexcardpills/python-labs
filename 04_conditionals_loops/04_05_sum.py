@@ -7,3 +7,10 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+first_number = 5
+second_number = 9
+range_numbers = range(first_number, second_number)
+for x in range_numbers:
+    print(sum(range_numbers))
+#I'm able to get the sum of all the numbers, but it prints it the amount of times equal to the range
+#of the numbers... how do I get it to print once? Also, how do I include the 2nd number in the range?
