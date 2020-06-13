@@ -17,3 +17,5 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+number = 5
+#I really don't know how to do this. Need help

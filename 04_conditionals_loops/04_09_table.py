@@ -8,3 +8,10 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+single_digits = range(0, 10)
+teens = range(10, 20)
+for x in single_digits:
+    print(x)
+for y in teens:
+    print(y)
+#how do I make it print on different lines to create a table?
