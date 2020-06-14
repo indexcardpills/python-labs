@@ -17,5 +17,10 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
-number = 5
-#I really don't know how to do this. Need help
+number = int(input("enter a number: "))
+rows = range(1, number+1)
+for x in rows:
+    if number ==
+
+# I'm stuck. This is similar to the first star loop lab, but in this one I need to take an input so I can't
+# just assign a number to the number variable and print however many rows and stars I assign.
