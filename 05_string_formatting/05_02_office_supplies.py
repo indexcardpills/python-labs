@@ -33,17 +33,18 @@ for dictionary in office:
     last_names = list_names[1].upper()
     first_names = list_names[0]
     if (len(name)) == 10:
-        print(f"{last_names}, {first_names:<20}{item}")
+        print(f"{last_names}, {first_names:<20}\t{item}")
     if (len(name)) == 11:
-        print(f"{last_names}, {first_names:<19}{item}")
+        print(f"{last_names}, {first_names:<19}\t{item}")
     if (len(name)) == 12:
-        print(f"{last_names}, {first_names:<18}{item}")
+        print(f"{last_names}, {first_names:<18}\t{item}")
     if (len(name)) == 13:
-        print(f"{last_names}, {first_names:<17}{item}")
+        print(f"{last_names}, {first_names:<17}\t{item}")
     if (len(name)) == 14:
-        print(f"{last_names}, {first_names:<16}{item}")
+        print(f"{last_names}, {first_names:<16}\t{item}")
     if (len(name)) == 15:
-        print(f"{last_names}, {first_names:<15}{item}")
+        print(f"{last_names}, {first_names:<15}\t{item}")
 
-#how do I get the items to align? I've tried putting the spacing in with the item variable and it still
-#doesn't work...
+#I've figured out that using \t helps, but I still don't know why they aren't all alligning correctly. Isn't
+# it dependent on the length of their names? All their names are either 10, 11, 12, 13, 14, or 15 characters.
+#Merideth Palmer and Toby Flenderson are the same length. Why is there a difference then?
