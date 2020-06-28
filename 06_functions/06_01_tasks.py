@@ -13,3 +13,20 @@ Write a script that completes the following tasks.
 # call your functions, passing in the user input as the arguments, and set their output equal to new variables 
 
 # print your new variables to display the results
+number=int(input("enter a number between 1 and 1,000,000,000: "))
+def dor (x):
+    if x % 4 == 0 or x % 7 == 0:
+        return True
+    else:
+        return False
+
+def dand (x):
+    if x % 4 == 0 and x % 7 == 0:
+	    return True
+    else:
+        return False
+
+print(dor(number))
+print(dand(number))
+
+# had to look some of this up, but I think I get it

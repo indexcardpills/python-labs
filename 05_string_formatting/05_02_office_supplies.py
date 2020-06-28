@@ -32,9 +32,12 @@ for dictionary in office:
     list_names = name.split()
     last_names = list_names[1].upper()
     first_names = list_names[0]
-    if (len(name)) == 10:
+    last_first=last_names + ',' + ' ' + first_names
+    print(f"{last_first:<20}\t{item}")
+''' 
+   if (len(name)) == 10:
         print(f"{last_names}, {first_names:<20}\t{item}")
-    if (len(name)) == 11:
+   if (len(name)) == 11:
         print(f"{last_names}, {first_names:<19}\t{item}")
     if (len(name)) == 12:
         print(f"{last_names}, {first_names:<18}\t{item}")
@@ -48,3 +51,4 @@ for dictionary in office:
 #I've figured out that using \t helps, but I still don't know why they aren't all alligning correctly. Isn't
 # it dependent on the length of their names? All their names are either 10, 11, 12, 13, 14, or 15 characters.
 #Merideth Palmer and Toby Flenderson are the same length. Why is there a difference then?
+   '''
