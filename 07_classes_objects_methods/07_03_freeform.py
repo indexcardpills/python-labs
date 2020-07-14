@@ -18,3 +18,50 @@ Cars, animals, poker games, sports teams, trees, beers, people etc...
 
 
 '''
+
+class Central_America:
+    def __init__(self, region, city, country):
+        self.region=region
+        self.city=city
+        self.country=country
+
+    def __str__(self):
+        return f"{self.city} is a city in {self.country} in {self.region}."
+
+
+class Caribbean:
+    def __init__(self, region, city, country):
+        self.region=region
+        self.city=city
+        self.country=country
+
+    def __str__(self):
+        return f"{self.city} is a city in {self.country} in the {self.region}."
+
+class South_America:
+    def __init__(self, region, city, country):
+        self.region=region
+        self.city=city
+        self.country=country
+
+    def __add__ (self, other):
+        '''other must be type South America'''
+        #return self.country+other.region
+        return self.country+" is a country in South America"
+
+    def __str__(self):
+        return f"{self.city} is a city in {self.country} in {self.region}."
+
+
+#print(colombia.addition("hello"))
+antigua=Central_America("Central America", "Antigua", "Guatemala")
+sps=Central_America("Central America", "San Pedro Sula", "Honduras")
+kingston=Caribbean("Caribbean", "Kingston", "Jamaica")
+ponce=Caribbean("Caribbean", "Ponce", "Puerto Rico")
+medellin=South_America("South America", "Medellin", "Colombia")
+riobamba=South_America("South America", "Riobamba", "Ecuador")
+print(antigua, sps, kingston, ponce, medellin, riobamba)
+#mix=South_America(medellin+riobamba)
+colombia=South_America("south america", "bogota", "colombia")
+#print(colombia.__add__("hello"))
+print(colombia+medellin)
