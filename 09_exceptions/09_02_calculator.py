@@ -8,3 +8,13 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+
+
+try:
+    x = int(input("enter a number: "))
+    y = int(input("enter another number: "))
+    print(x/y)
+except ZeroDivisionError:
+    print("cannot divide by 0")
+except ValueError:
+    print("must enter a number")

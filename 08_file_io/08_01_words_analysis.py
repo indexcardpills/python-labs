@@ -13,13 +13,18 @@ with open('words.txt', 'r') as fin:
         word=word.rstrip()
         words.append(word)
 
-short_words=len(min(words, key=len))
-for s in words:
-    if len(s)==short_words:
-        print(s)
-long_words=(len(max(words, key=len)))
-for l in words:
-    if len(l)==long_words:
-        print(l)
+length_of_shortest_words=len(min(words, key=len))
+length_of_longest_words=(len(max(words, key=len)))
+short=[]
+long=[]
+for word in words:
+    if len(word)==length_of_shortest_words:
+        short.append(word)
+    if len(word)==length_of_longest_words:
+        long.append(word)
+print(short)
+print(long)
+
+
 print(len(words))
 
