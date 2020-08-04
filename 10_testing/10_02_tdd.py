@@ -8,3 +8,23 @@ fail and write tests that will check and prevent failure.
 You do not need to implement the actual functions after writing the tests but you may.
 
 '''
+
+import unittest
+
+
+def subtract(a, b):
+    return a-b
+
+def remainder(x, y):
+    return x%y
+
+
+
+class Testing(unittest.TestCase):
+    def test_subtract(self):
+        self.assertEqual(subtract(9,8), (2))
+
+    def test_remainder(self):
+        self.assertEqual(remainder(10, 6), (4))
+
+unittest.main()

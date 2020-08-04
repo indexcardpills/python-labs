@@ -23,3 +23,23 @@ BONUS CHALLENGE: write a custom Exception that inherits from Exception and raise
 first 100 characters of any of the files contain the string "Prince".
 
 '''
+
+import os
+warpeace=[]
+with open ("books\war_and_peace.txt", "r", encoding="utf8") as store:
+    warpeace.append(store.readlines())
+print(warpeace[0])
+with open ("books\crime_and_punishment.txt", "w") as overwrite:
+     overwrite.write("")
+
+for book in os.listdir(r"books\\"):
+    #print(f"books\\{book}")
+    with open (f"books\\{book}", "r", encoding="utf8") as x:
+        first_line=x.readline()
+        print(first_line[:0])
+
+
+
+
+
+

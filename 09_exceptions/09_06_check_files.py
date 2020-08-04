@@ -7,4 +7,15 @@ only if neither of them applies.
 
 '''
 
-file_name = 'integers.txt'
+with open ('integers.txt', 'r') as fin:
+    try:
+        x=int(fin.readline())+1
+    except IOError:
+        print("that's an input-output error")
+    except ValueError:
+        print("that's a value error")
+    else:
+        print(x)
+
+
+
