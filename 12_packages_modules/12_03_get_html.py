@@ -9,3 +9,10 @@ TIP:
     very common. head over to SO and find a solution!
 
 '''
+
+
+import urllib.request
+webUrl = urllib.request.urlopen('https://codingnomads.co/')
+data = webUrl.read()
+print(data)
+
