@@ -6,5 +6,10 @@ Then open up your online shop ;)
 
 '''
 
+import itertools
+
 colors = ["neon orange", "spring green"]
 sizes = ["S", "M", "L"]
+
+for x in itertools.product(colors, sizes):
+    print(x)
